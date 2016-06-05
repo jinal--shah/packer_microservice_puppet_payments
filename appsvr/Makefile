@@ -10,8 +10,7 @@ export METRICS_REMOTE_PORT?=
 #   ... packer_includes
 export PACKER_INCLUDES_GIT_TAG:=2.0.4
 #   ... ami sources
-export AMI_SOURCE_CHANNEL:=*
-export AMI_SOURCE_GIT_TAG:=1.0.1
+export AMI_SOURCE_CHANNEL:=stable
 export AMI_SOURCE_PREFIX:=eurostar_monlog
 
 #   ... puppet sources (eif_puppet)
