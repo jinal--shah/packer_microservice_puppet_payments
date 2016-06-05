@@ -35,7 +35,7 @@ including git tags etc ... exist.
 
 Amend the Makefile as required.
 
-### 5. Build
+### 5. build
 
         make clean build
 
@@ -63,6 +63,4 @@ appears under uploads/puppet, on subsequent avoid the _clean_ target.
   Usually this indicates that a suitable source ami can't be found.
 
   Are you specifying a channel in your Makefile? e.g. stable or \*
-
-  
 
