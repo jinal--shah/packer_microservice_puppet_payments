@@ -58,3 +58,11 @@ appears under uploads/puppet, on subsequent avoid the _clean_ target.
 
 **TODO: stop using env specific folders for versioned artefacts!**
 
+* _Make error: \*\*\* You must pass env var AMI_PREVIOUS\_SOURCES to make.  Stop._
+
+  Usually this indicates that a suitable source ami can't be found.
+
+  Are you specifying a channel in your Makefile? e.g. stable or \*
+
+  
+
