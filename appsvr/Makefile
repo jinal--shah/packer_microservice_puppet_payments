@@ -8,7 +8,7 @@ export METRICS_REMOTE_PORT?=
 
 ### ABOUT BUILD SOURCES
 #   ... packer_includes
-export PACKER_INCLUDES_GIT_TAG:=2.0.3
+export PACKER_INCLUDES_GIT_TAG:=2.0.4
 #   ... ami sources
 export AMI_SOURCE_CHANNEL:=*
 export AMI_SOURCE_GIT_TAG:=1.0.1
