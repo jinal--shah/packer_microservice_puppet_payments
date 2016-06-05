@@ -4,9 +4,9 @@
 
 ## Structure
 
-Each subdir is a role definition that can build an AMI
-containing a Makefile, and any bespoke uploads or build
-scripts for that role.
+Each subdir is a role definition containing a Makefile,
+and any bespoke uploads or build scripts for that role.
+Building a role generates an AWS AMI.
 
 ## Usage
 
