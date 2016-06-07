@@ -8,7 +8,7 @@ export METRICS_REMOTE_PORT?=
 
 ### ABOUT BUILD SOURCES
 #   ... packer_includes
-export PACKER_INCLUDES_GIT_TAG:=2.0.4
+export PACKER_INCLUDES_GIT_TAG:=2.0.5
 #   ... ami sources
 export AMI_SOURCE_CHANNEL:=stable
 export AMI_SOURCE_PREFIX:=eurostar_monlog
@@ -28,7 +28,6 @@ export AWS_REGION:=eu-west-1
 # ... EUROSTAR_RELEASE_VERSION overriden from THIS repo's checked-out
 #     tag if one exists (e.g when building a release)
 export APP_VERSION:=28
-export EUROSTAR_RELEASE_VERSION:=alpha
 export EUROSTAR_SERVICE_NAME:=payments
 export EUROSTAR_SERVICE_ROLE:=appsvr
 export PUPPET_PRODUCT=payments
